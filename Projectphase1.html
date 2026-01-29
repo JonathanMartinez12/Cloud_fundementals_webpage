@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML exercise</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: serif;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://www.lsu.edu/mediacenter/images/lsu-logo.png" alt="LSU Logo" width="200">
+
+    <h1>About</h1>
+
+    <p>Welcome to the <b>Division of Computer Science and Engineering</b> at LSU! The division resides in the newly formed School of Electrical Engineering and Computer Science (EECS) in the <i>College of Engineering</i>.</p>
+
+    <h2>The location of our collaborators</h2>
+
+    <ul>
+        <li>USA
+            <ul>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Columbus</a></li>
+                <li><a href="#">Austin</a></li>
+                <li><a href="#">Philly</a></li>
+            </ul>
+        </li>
+        <li>World
+            <ul>
+                <li><a href="#">Ottawa</a></li>
+                <li><a href="#">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Upcoming Classes</h2>
+
+    <table border="1">
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript &amp; jQuery</td>
+        </tr>
+        <tr>
+            <td>San Francisco</td>
+            <td>HTML &amp; CSS</td>
+        </tr>
+    </table>
+
+    <h2>Sign Up!</h2>
+
+    <form action="#" method="post">
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label>Location:
+            <select name="location">
+                <option value="San Francisco">San Francisco</option>
+                <option value="New York">New York</option>
+            </select>
+        </label><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <label>Female <input type="radio" name="gender" value="female" checked></label>
+            <label>Male <input type="radio" name="gender" value="male"></label>
+        </fieldset>
+
+        <br>
+        <label>Experience:<br>
+            <textarea name="experience" rows="3" cols="30"></textarea>
+        </label><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+</html>
